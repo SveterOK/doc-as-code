@@ -1,0 +1,16 @@
+@startuml
+
+left to right direction
+
+class Task {
+    Title
+    Description
+}
+
+class Status {
+    Name
+}
+
+Task "0..n" -- "1" Status
+
+@enduml
